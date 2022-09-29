@@ -107,7 +107,7 @@ p:hover{
     font-weight: bold;
 }
 
-/* BLOG */
+/* Games */
 
 .games{
    width: 100%;
@@ -160,6 +160,9 @@ p:hover{
 .games .cardbox .card .content h4{
    color: #ffff;
    margin: 15px 0;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
 }
 
 .games .cardbox .card .info{
