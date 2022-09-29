@@ -15,25 +15,29 @@
         var src = '../assets/gif/cardrift.gif';
    function changeImage(){
 switch(src){
+    case '../assets/gif/tourism.gif':
+        src = '../assets/gif/cardrift.gif';
+        document.getElementById('image-div').innerHTML = '<div style="background: url('+src+');height:95%;width:100%;  background-repeat: no-repeat;background-size: cover;"></div>"';
+    break;
     case '../assets/gif/cardrift.gif':
         src = '../assets/gif/car2.gif';
-        document.getElementById('image-div').innerHTML += '<div style="background: url('+src+');height:95%;width:100%;  background-repeat: no-repeat;background-size: cover;"></div>"';
+        document.getElementById('image-div').innerHTML = '<div style="background: url('+src+');height:95%;width:100%;  background-repeat: no-repeat;background-size: cover;"></div>"';
     break;
     case '../assets/gif/car2.gif':
         src = '../assets/gif/fornite.gif';
-        document.getElementById('image-div').innerHTML += '<div style="background: url('+src+');height:95%;width:100%;  background-repeat: no-repeat;background-size: cover;"></div>"';
+        document.getElementById('image-div').innerHTML = '<div style="background: url('+src+');height:95%;width:100%;  background-repeat: no-repeat;background-size: cover;"></div>"';
     break;
     case '../assets/gif/fornite.gif':
             src = '../assets/gif/offroad.gif';
-            document.getElementById('image-div').innerHTML += '<div style="background: url('+src+');height:95%;width:100%;  background-repeat: no-repeat;background-size: cover;"></div>"';
+            document.getElementById('image-div').innerHTML = '<div style="background: url('+src+');height:95%;width:100%;  background-repeat: no-repeat;background-size: cover;"></div>"';
     break;
     case '../assets/gif/offroad.gif':
             src = '../assets/gif/ontheroad.gif';
-            document.getElementById('image-div').innerHTML += '<div style="background: url('+src+');height:95%;width:100%;  background-repeat: no-repeat;background-size: cover;"></div>"';
+            document.getElementById('image-div').innerHTML = '<div style="background: url('+src+');height:95%;width:100%;  background-repeat: no-repeat;background-size: cover;"></div>"';
     break;
     case '../assets/gif/ontheroad.gif':
                 src = '../assets/gif/tourism.gif';
-                document.getElementById('image-div').innerHTML += '<div style="background: url('+src+');height:95%;width:100%;  background-repeat: no-repeat;background-size: cover;"></div>"';
+                document.getElementById('image-div').innerHTML = '<div style="background: url('+src+');height:95%;width:100%;  background-repeat: no-repeat;background-size: cover;"></div>"';
     break;
 }
 for(var i=0;i<games.length;i++){
