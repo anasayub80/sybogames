@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Mali', cursive;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100vw;
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(/assets/gif/tourism.gif); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/gif/offroad.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.Container {
+    width: 100vw;
+    max-width: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+#teamInfo{
+    margin: 26px;
+}
+.Cards-Container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: white;
+    width: 270px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 16px;
+}
+.image {
+    background-color: green;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 16px;
+    text-align: center;
+    align-items: center;
+    padding-top: 95%;
+}
+h1{
+    color: white;
+    /* background:  url(assets/bg/bg.jpg); */
+}
+p{
+    color: white;
+    /* background:  url(assets/bg/bg.jpg); */
+    margin-top: 10px;
+}
+.img-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(/assets/img/anas.jpg);
+    height: 170px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url( /assets/img/asher.jpg);
+    height: 170px;
+    backdrop-filter: blur(20px);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/usama.jpg);
+    height: 170px;
+    backdrop-filter: blur(20px);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/usman.jpg);
+    height: 170px;
+    backdrop-filter: blur(20px);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-1:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(assets/img/anas.jpg);
+    height: 170px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.img-2:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(assets/img/asher.jpg);
+    height: 170px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.img-3:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(assets/img/usama.jpg);
+    height: 170px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.img-4:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(assets/img/usman.jpg);
+    height: 170px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

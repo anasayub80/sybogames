@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
+/* https://www.pinterest.com/pin/372321094200667403/ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    --transition: 0.25s ease;
+}
+body {
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Mali', cursive;
+    max-width: 100%;    
+    /* for hide scroll during  */
+    overflow-x: hidden; 
+    padding: 0%;
+}
+main{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/assets/gif/cardrift.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+/* NAV BAR */
+nav{
+    border-bottom: 1px white solid;
+}
+.logo{
+    height: 100px;
+    width: 155px;
+    float: right;
+    padding: 10px 10px 30px 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+nav a{
+text-decoration: none;
+display: inline-block;
+color: red;
+padding: 25px;
+margin-left: 10px;
+margin-bottom: 5px;
+margin-top: 5px;
+font-size: large;
+font-weight: bolder;
+}
+a:hover{
+background-color: #9B1E45;
+color: white;
+border-radius: 25px;
+}
+a:active{
+    background-color: white;
+    color: #9B1E45;
+    border-radius: 25px;
+}
+/* X-X-X-X /*
+
+/* MAIN BODY */
+.main-text-container {
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.main-text-container h1 {
+    font-size: 75px;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 45px;
+    color: #9B1E45;
+}
+
+.main-text-container p {
+    font-size: 28px;
+    color: #C60308;
+    margin-bottom: 5vh;
+}
+h1:hover{
+    color: #C60308;
+}
+p:hover{
+    color: #C60308
+}
+.main-text-container a {
+    text-decoration: none;
+    background-color: #9B1E45;
+    color: white;
+    padding: 12px 50px;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.main-text-container a:hover{
+    background-color: #C60308;
+    color: white;
+    font-weight: bold;
+}
+
+/* BLOG */
+
+.games{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 40px auto;
+   animation-name: example;
+   animation-duration: 2s;
+   position: relative;  
+}
+ 
+@keyframes example {
+   0%   {left:100%}
+   100% {left:0%}
+}
+
+.games h2{
+   color: #9B1E45;
+   margin-bottom: 10px;
+}
+
+.games .cardbox{
+   width: 100%; 
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.games .cardbox .card{
+   width: 280px;
+   border-radius: 10px;
+   margin: 20px 40px;
+   background: #1b2141;
+   overflow: hidden;
+}
+
+.games .cardbox .card img{
+   width: 100%;
+   height: 250px;
+   object-fit: fill;
+}
+
+.games .cardbox .card .content{
+   padding: 10px;
+}
+
+.games .cardbox .card .content h4{
+   color: #ffff;
+   margin: 15px 0;
+}
+
+.games .cardbox .card .info{
+   border-top: 2px solid #9B1E45;
+   padding: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.games .cardbox .card .info p{
+   font-size: 1em;
+   color: #ffff;
+}
+
+.games .cardbox .card .info a{
+display: inline-block;
+padding: 10px 20px;
+margin: 15px;
+align-items: center;
+border: 1px solid #C60308;
+text-decoration: none;
+font-weight: 700;
+border-radius: 5px;
+color: #fff;
+letter-spacing: 1px;
+}
+
+.games .cardbox .card .info a:hover{
+background: #9B1E45;
+border: none;
+color: white;
+box-shadow: 0 0 10px #9B1E45;
+}
+
+/* Footer  */
+
+.footer-container{
+ background-color: #9B1E45;
+ margin: auto;
+ max-width: 100%;
+ padding-top: 25px;
+ padding-bottom: 25px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #1b2141;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: aqua;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color:white;
+text-decoration: none;
+font-weight: 300;
+color: whitesmoke;
+display: block;
+transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color:white;
+    padding-left: 8px;
+}
+.footer-col .social-links{
+    flex-direction: row;
+    display: flex;
+}
+.footer-col .social-links li{
+    list-style: none;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius:50% ;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: white;
+}
+
