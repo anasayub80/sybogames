@@ -18,7 +18,7 @@ body {
     padding: 0%;
 }
 main{
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/assets/gif/cardrift.gif);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/gif/cardrift.gif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
