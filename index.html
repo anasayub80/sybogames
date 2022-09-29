@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <main>
+    <section>
         <header>
             <nav>
                 <a href="#">HOME</a>
@@ -23,103 +23,21 @@
                 <img src="assets/img/logo.jpeg" alt="" class="logo">
             </nav>
         </header>
-        <section class="main-text-container">
-            <h1>SYBO Games</h1>
-            <a href="#">Explore Games</a>
-        </section>
+    </section>
+    <main id="image-div">
     </main>
-   
+    <section class="main-text-container">
+        <h1>SYBO Games</h1>
+        <a href="#" onclick="changeImage()">Next</a>
+    </section>
       <!-- 
-        - #BLOG
+        - #Games
       -->
 
       <section>
         <div class="games">
             <h2>Our Games</h2>
-            <!-- // subway surfers -->
-            <div class="cardbox">
-                <div class="card">
-                    <img src="assets/img/subway.png" alt="" srcset="">
-                    <div class="content">
-                        <h4>Subway Surfers</h4>
-                        <div class="info">
-                            <a href="#">Play Now</a>
-                        </div>
-                    </div>
-                </div>
-            <!-- // Blades of Brim -->
-                <div class="card">
-                    <img src="assets/img/bladesofbrim.jpg" alt="" srcset="">
-                    <div class="content">
-                        <h4>Blades of Brim</h4>
-                        <div class="info">
-                            <a href="#">Play Now</a>
-                        </div>
-                    </div>
-                </div>
-            <!-- // Geometry Dash -->  
-                <div class="card">
-                    <img src="assets/img/geometryDash.png" alt="" srcset="">
-                    <div class="content">
-                        <h4>Geometry Dash</h4>
-                        <div class="info">
-                            <a href="#">Play Now</a>
-                        </div>
-                    </div>
-                </div>
-              <!-- // Red Ball -->  
-              <div class="card">
-                <img src="assets/img/redball.png" alt="" srcset="">
-                <div class="content">
-                    <h4>Real Ball</h4>
-                    <div class="info">
-                        <a href="#">Play Now</a>
-                    </div>
-                </div>
-                </div>
-    
-                   <!-- // Drift Racer -->
-            <div class="cardbox">
-                <div class="card">
-                    <img src="assets/img/logo.jpeg" alt="" srcset="">
-                    <div class="content">
-                        <h4>Drift Racer</h4>
-                        <div class="info">
-                            <a href="#">Play Now</a>
-                        </div>
-                    </div>
-                </div>
-            <!-- // Blades of Brim -->
-                <div class="card">
-                    <img src="assets/img/bladesofbrim.jpg" alt="" srcset="">
-                    <div class="content">
-                        <h4>Blades of Brim</h4>
-                        <div class="info">
-                            <a href="#">Play Now</a>
-                        </div>
-                    </div>
-                </div>
-            <!-- // Geometry Dash -->  
-                <div class="card">
-                    <img src="assets/img/geometryDash.png" alt="" srcset="">
-                    <div class="content">
-                        <h4>Geometry Dash</h4>
-                        <div class="info">
-                            <a href="#">Play Now</a>
-                        </div>
-                    </div>
-                </div>
-              <!-- // Red Ball -->  
-              <div class="card">
-                <img src="assets/img/redball.png" alt="" srcset="">
-                <div class="content">
-                    <h4>Real Ball</h4>
-                    <div class="info">
-                        <a href="#">Play Now</a>
-                    </div>
-                </div>
-                </div>
-            </div>
+                   <div class="cardbox" id="cardbox"></div>
         </div>
         </div>
        </section>
@@ -170,4 +88,6 @@
                 </div>
             </footer>
 </body>
+<script src="script.js"></script>
+
 </html>
